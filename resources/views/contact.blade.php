@@ -2,35 +2,35 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Contact Ukwaju Market | Customer Support | Kenyan Products USA</title>
+    <title>Contact Magic Sofa Cover | Customer Support | Home Essentials Kenya</title>
 
     <!-- Primary Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Need help? Contact Ukwaju Market for support with your Kenyan grocery orders, product inquiries, or wholesale questions. We're here to help you connect with authentic African products in the USA.">
+        content="Need help? Contact Magic Sofa Cover for support with your fleece blankets, duvet covers, sofa covers, and home essentials orders. We deliver quality products across Kenya.">
     <meta name="keywords"
-        content="contact Ukwaju Market, Kenyan store support, African grocery help, Kenyan products customer service, East African store contact, African food delivery support">
+        content="contact Magic Sofa Cover, home essentials support Kenya, fleece blankets customer service, duvet covers help, sofa covers inquiries, home decor support Kenya">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.ukwajumarket.com/contact">
-    <meta property="og:title" content="Contact Us | Ukwaju Market Customer Support">
+    <meta property="og:url" content="https://magicsofacover.shop/contact">
+    <meta property="og:title" content="Contact Us | Magic Sofa Cover Customer Support">
     <meta property="og:description"
-        content="Get in touch with Ukwaju Market. We're here to help with your Kenyan grocery orders and product inquiries in the USA.">
-    <meta property="og:image" content="assets/images/ukwaju-market-contact-og.jpg">
+        content="Get in touch with Magic Sofa Cover for inquiries about fleece blankets, duvets, sofa covers, and more. We offer quality home essentials in Kenya.">
+    <meta property="og:image" content="assets/images/magicsofacover-contact-og.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.ukwajumarket.com/contact">
-    <meta property="twitter:title" content="Contact Ukwaju Market | Customer Support">
+    <meta property="twitter:url" content="https://magicsofacover.shop/contact">
+    <meta property="twitter:title" content="Contact Magic Sofa Cover | Customer Support">
     <meta property="twitter:description"
-        content="Need assistance? Contact our team for help with your Kenyan product orders and inquiries.">
-    <meta property="twitter:image" content="assets/images/ukwaju-market-contact-og.jpg">
+        content="Need assistance? Contact our team for help with your fleece blankets, sofa covers, and home essentials orders in Kenya.">
+    <meta property="twitter:image" content="assets/images/magicsofacover-contact-og.jpg">
 
     <!-- Additional Meta -->
-    <meta name="author" content="Ukwaju Market">
+    <meta name="author" content="Magic Sofa Cover">
     <meta name="MobileOptimized" content="320">
-    <link rel="canonical" href="https://www.ukwajumarket.com/contact">
+    <link rel="canonical" href="https://magicsofacover.shop/contact">
 
     <!-- Contact-Specific Meta -->
     <meta name="robots" content="index, follow, noarchive">
@@ -54,6 +54,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
+
 <body>
     @include('header')
     <!-- breadcrumb start -->
@@ -72,7 +73,7 @@
     <section id="location" class="map-location-main-block">
         <div class="container">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387196.07665879064!2d-74.30914977179596!3d40.69667269554806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2ske!4v1739025620127!5m2!1sen!2ske"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3988.81387324858!2d36.82511232496566!3d-1.2856824487020935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRoyal%20Palm%20Mall%20AM15%20first%20floor%20%2C%20Wing%20A%20Along%20Ronald%20Ngala%20street%20Nairobi%2CKenya!5e0!3m2!1sen!2ske!4v1739996094173!5m2!1sen!2ske"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="contact-main-block">
@@ -84,7 +85,8 @@
                             </div>
                             <div class="contact-dtls">
                                 <h3 class="contact-title">Address</h3>
-                                <p>New York, USA</p>
+                                <p>Royal Palm Mall AM15 first floor , Wing A
+                                    Along Ronald Ngala street Nairobi,Kenya</p>
                             </div>
                         </div>
                     </div>
@@ -96,7 +98,7 @@
                             <div class="contact-dtls">
                                 <h3 class="contact-title">Lets Talk us</h3>
                                 <ul>
-                                    <li>Phone number: <a href="tel:+ (212) 935 3811">+ (212) 935 3811</a></li>
+                                    <li>Phone number: <a href="tel:+254 707 518787">+254 707 518787</a></li>
                                     {{-- <li>Fax: 1234 -58963 - 007</li> --}}
                                 </ul>
                             </div>
@@ -110,7 +112,7 @@
                             <div class="contact-dtls">
                                 <h3 class="contact-title">Send us email</h3>
                                 <ul>
-                                    <li><a href="">info@Ukwajumarket.com</a>
+                                    <li><a href="">cmoraa19@gmail.com</a>
                                     </li>
 
                                 </ul>
@@ -130,8 +132,10 @@
                     <div class="faqs-form-dtls">
                         <h4 class="sub-heading">Contact Us</h4>
                         <h1 class="heading">Have Any Questions?</h1>
-                        <p>We’re here to bring you closer to home. Whether it’s about our products, shipping, or special
-                            requests, feel free to reach out. Ukwaju Market is always ready to assist you.</p>
+                        <p>We’re here to help you create a cozy and stylish home. Whether it's about our products,
+                            shipping, or special requests, feel free to reach out. Magic Sofa Cover is always ready to
+                            assist you.</p>
+
                         <ul class="footer-social-icons">
                             <li><a href="#" title=""><i class="flaticon-facebook"></i></a></li>
                             <li><a href="#" title=""><i class="flaticon-twitter"></i></a></li>
@@ -254,6 +258,7 @@
     </section>
     <!-- faqs form end -->
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

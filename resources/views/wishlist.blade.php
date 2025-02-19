@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Your Wishlist | Save Your Favorite Kenyan Products | Ukwaju Market</title>
+    <title>Your Saved Favorites | Magic Sofa Cover Kenya</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -78,7 +78,7 @@
                                 {{ $item['name'] }}
                             </h3>
                             <p style="color: #4a5568; font-size: 1.25rem; font-weight: 600; margin: 0 0 1rem;">
-                                ${{ number_format($item['price'], 2) }}
+                                KES {{ number_format($item['price'], 2) }}
                             </p>
 
                             <div style="display: flex; gap: 0.5rem;">
@@ -211,7 +211,9 @@
 
     <!-- wishlist end -->
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
+
     <!-- footer end -->
 
     <!-- jquery -->

@@ -101,7 +101,8 @@
                     <i class="fas fa-dollar-sign" style="color: #16a34a; margin-right: 0.5rem;"></i>
                     <span style="color: #166534; font-size: 0.875rem;">Total Revenue</span>
                 </div>
-                <p style="font-size: 1.5rem; font-weight: 700; color: #166534;">${{ number_format($totalRevenue, 2) }}</p>
+                <p style="font-size: 1.5rem; font-weight: 700; color: #166534;">KES {{ number_format($totalRevenue, 2) }}
+                </p>
             </div>
 
             <!-- Pending Revenue -->
@@ -111,7 +112,8 @@
                     <i class="fas fa-hourglass-half" style="color: #c2410c; margin-right: 0.5rem;"></i>
                     <span style="color: #9a3412; font-size: 0.875rem;">Pending Revenue</span>
                 </div>
-                <p style="font-size: 1.5rem; font-weight: 700; color: #9a3412;">${{ number_format($pendingRevenue, 2) }}</p>
+                <p style="font-size: 1.5rem; font-weight: 700; color: #9a3412;">KES {{ number_format($pendingRevenue, 2) }}
+                </p>
             </div>
 
             <!-- Shipped Revenue -->
@@ -121,7 +123,8 @@
                     <i class="fas fa-truck" style="color: #1d4ed8; margin-right: 0.5rem;"></i>
                     <span style="color: #1e40af; font-size: 0.875rem;">Shipped Revenue</span>
                 </div>
-                <p style="font-size: 1.5rem; font-weight: 700; color: #1e40af;">${{ number_format($shippedRevenue, 2) }}</p>
+                <p style="font-size: 1.5rem; font-weight: 700; color: #1e40af;">KES {{ number_format($shippedRevenue, 2) }}
+                </p>
             </div>
 
             <!-- Average Order Value -->
@@ -131,7 +134,8 @@
                     <i class="fas fa-chart-line" style="color: #7e22ce; margin-right: 0.5rem;"></i>
                     <span style="color: #6b21a8; font-size: 0.875rem;">Avg Order Value</span>
                 </div>
-                <p style="font-size: 1.5rem; font-weight: 700; color: #6b21a8;">${{ number_format($averageOrderValue, 2) }}
+                <p style="font-size: 1.5rem; font-weight: 700; color: #6b21a8;">KES
+                    {{ number_format($averageOrderValue, 2) }}
                 </p>
             </div>
         </div>
@@ -181,7 +185,7 @@
                             <td style="padding: 1rem; border-bottom: 1px solid #e5e7eb;">#{{ $order->id }}</td>
                             <td style="padding: 1rem; border-bottom: 1px solid #e5e7eb;">{{ $order->user->name }}</td>
                             <td style="padding: 1rem; border-bottom: 1px solid #e5e7eb;">
-                                ${{ number_format($order->total_price, 2) }}</td>
+                                KES {{ number_format($order->total_price, 2) }}</td>
                             <td style="padding: 1rem; border-bottom: 1px solid #e5e7eb;">
                                 <span
                                     style="padding: 0.375rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 500;

@@ -114,10 +114,10 @@
                                         style="width: 80px; height: 80px; object-fit: cover; border-radius: 0.375rem;">
                                 </td>
                                 <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">
-                                    ${{ number_format($item->product_price, 2) }}</td>
+                                    KES {{ number_format($item->product_price, 2) }}</td>
                                 <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">{{ $item->quantity }}</td>
                                 <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0; font-weight: 600;">
-                                    ${{ number_format($item->product_price * $item->quantity, 2) }}
+                                    KES {{ number_format($item->product_price * $item->quantity, 2) }}
                                 </td>
                             </tr>
                         @endforeach

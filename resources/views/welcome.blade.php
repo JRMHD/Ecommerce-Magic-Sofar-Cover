@@ -4,35 +4,35 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Ukwaju Market | Authentic Kenyan Products & Food in USA | African Grocery Store</title>
+    <title>Magic Sofa Cover | Fleece Blankets, Duvets, Cushion Covers & Home Decor in Kenya</title>
 
     <!-- Primary Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Shop authentic Kenyan food, groceries, and cultural items in the USA. Ukwaju Market delivers East African essentials nationwide. Your trusted source for traditional Kenyan products.">
+        content="Shop high-quality fleece blankets, fluffy duvets, duvet covers, sofa covers, cushion covers, carpets, and home decor. We deliver across Kenya. Upgrade your home with our stylish and affordable collections.">
     <meta name="keywords"
-        content="Kenyan food USA, African grocery store, Kenyan products America, East African market online, African food delivery, Kenyan groceries USA, African cultural items">
+        content="fleece blankets Kenya, fluffy duvets, duvet covers, sofa covers, home decor Kenya, cushion covers, 3D carpets, seat covers, pillow protectors, door mats, velvet duvets, plastic wardrobe">
+    <meta name="author" content="Magic Sofa Cover">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.ukwajumarket.com/">
-    <meta property="og:title" content="Ukwaju Market | Authentic Kenyan Products in USA">
+    <meta property="og:url" content="https://www.magicsofacover.shop/">
+    <meta property="og:title" content="Magic Sofa Cover | Fleece Blankets, Duvets, Sofa Covers & More">
     <meta property="og:description"
-        content="Your trusted source for authentic Kenyan food, groceries, and cultural items delivered across the USA. Bringing Kenya closer to you.">
-    <meta property="og:image" content="assets/images/ukwaju-market-og.jpg">
+        content="Upgrade your home with our premium fleece blankets, fluffy duvets, cushion covers, sofa covers, and home decor. Countrywide delivery in Kenya.">
+    <meta property="og:image" content="assets/images/magic-sofa-cover-og.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.ukwajumarket.com/">
-    <meta property="twitter:title" content="Ukwaju Market | Kenyan Products in USA">
+    <meta property="twitter:url" content="https://www.magicsofacover.shop/">
+    <meta property="twitter:title" content="Magic Sofa Cover | Premium Home Decor & Beddings in Kenya">
     <meta property="twitter:description"
-        content="Shop authentic Kenyan food, groceries, and cultural items. Nationwide delivery across USA.">
-    <meta property="twitter:image" content="assets/images/ukwaju-market-og.jpg">
+        content="Shop high-quality fleece blankets, duvets, cushion covers, and home essentials. Fast delivery across Kenya.">
+    <meta property="twitter:image" content="assets/images/magic-sofa-cover-og.jpg">
 
     <!-- Additional Meta -->
-    <meta name="author" content="Ukwaju Market">
     <meta name="MobileOptimized" content="320">
-    <link rel="canonical" href="https://www.ukwajumarket.com/">
+    <link rel="canonical" href="https://www.magicsofacover.shop/">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -48,6 +48,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
+
 <body>
     @include('header')
 
@@ -61,10 +62,10 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-7 col-md-6">
                                     <div class="home-banner-dtl">
-                                        <h4 class="home-banner-sub-heading">Bringing Kenya Closer</h4>
-                                        <h1 class="home-banner-heading">Your Favorite Kenyan Products in the USA</h1>
-                                        <p>Experience the tastes, scents, and traditions of Kenya, delivered straight to
-                                            your doorstep.</p>
+                                        <h4 class="home-banner-sub-heading">Comfort & Style</h4>
+                                        <h1 class="home-banner-heading">Transform Your Home with Cozy Essentials</h1>
+                                        <p>Discover premium fleece blankets, stylish duvet covers, and elegant
+                                            slipcovers to enhance your living space.</p>
                                         <a href="/shop" title="" class="btn btn-primary">Shop Now<i
                                                 class="flaticon-right-arrows"></i></a>
                                     </div>
@@ -73,7 +74,7 @@
                                     <div class="home-banner-img">
                                         <a href="#" title=""><img
                                                 src="assets/images/home_page_4/banner/01.png" class="img-fluid"
-                                                alt="Ukwaju Market"></a>
+                                                alt="Magic Sofa Cover"></a>
                                     </div>
                                 </div>
                             </div>
@@ -82,10 +83,11 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-7 col-md-6">
                                     <div class="home-banner-dtl">
-                                        <h4 class="home-banner-sub-heading">Authentic & Affordable</h4>
-                                        <h1 class="home-banner-heading">Shop Kenyan Staples with Ease</h1>
-                                        <p>Find your favorite Kenyan foods, beverages, and household essentials at
-                                            unbeatable prices.</p>
+                                        <h4 class="home-banner-sub-heading">Affordable Luxury</h4>
+                                        <h1 class="home-banner-heading">High-Quality Home Décor at Unbeatable Prices
+                                        </h1>
+                                        <p>Upgrade your home with stylish and durable home essentials, from throw pillow
+                                            covers to 3D carpets.</p>
                                         <a href="/shop" title="" class="btn btn-primary">Shop Now<i
                                                 class="flaticon-right-arrows"></i></a>
                                     </div>
@@ -94,7 +96,7 @@
                                     <div class="home-banner-img">
                                         <a href="#" title=""><img
                                                 src="assets/images/home_page_4/banner/03.png" class="img-fluid"
-                                                alt="Kenyan Products"></a>
+                                                alt="Home Décor"></a>
                                     </div>
                                 </div>
                             </div>
@@ -103,10 +105,10 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-7 col-md-6">
                                     <div class="home-banner-dtl">
-                                        <h4 class="home-banner-sub-heading">A Taste of Home</h4>
-                                        <h1 class="home-banner-heading">Enjoy East African Delicacies Anytime</h1>
-                                        <p>From tea and coffee to spices and snacks, we bring you the flavors that
-                                            remind you of home.</p>
+                                        <h4 class="home-banner-sub-heading">Elegant & Functional</h4>
+                                        <h1 class="home-banner-heading">Protect & Beautify Your Furniture</h1>
+                                        <p>Keep your sofas, recliners, and cushions looking fresh with our premium
+                                            slipcovers and protectors.</p>
                                         <a href="/shop" title="" class="btn btn-primary">Shop Now<i
                                                 class="flaticon-right-arrows"></i></a>
                                     </div>
@@ -115,12 +117,13 @@
                                     <div class="home-banner-img">
                                         <a href="#" title=""><img
                                                 src="assets/images/home_page_4/banner/04.png" class="img-fluid"
-                                                alt="Kenyan Snacks"></a>
+                                                alt="Slipcovers & Protectors"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-lg-4">
                     <div class="home-banner-block home-banner-block-two">
@@ -143,11 +146,11 @@
                     <div class="services-block text-center">
                         <div class="services-img">
                             <img src="assets/images/home_page_4/service/01.png" class="img-fluid"
-                                alt="Online Support">
+                                alt="Customer Support">
                         </div>
                         <div class="services-dtls">
                             <h5 class="services-heading">24/7 Customer Support</h5>
-                            <p>We're here to help, anytime.</p>
+                            <p>We're here to assist you anytime.</p>
                         </div>
                     </div>
                 </div>
@@ -155,11 +158,11 @@
                     <div class="services-block text-center">
                         <div class="services-img">
                             <img src="assets/images/home_page_4/service/02.png" class="img-fluid"
-                                alt="Member Discount">
+                                alt="Exclusive Deals">
                         </div>
                         <div class="services-dtls">
-                            <h5 class="services-heading">Exclusive Member Deals</h5>
-                            <p>Unlock savings on select products.</p>
+                            <h5 class="services-heading">Exclusive Discounts</h5>
+                            <p>Save big on premium home essentials.</p>
                         </div>
                     </div>
                 </div>
@@ -169,7 +172,7 @@
                             <img src="assets/images/home_page_4/service/03.png" class="img-fluid" alt="Money Return">
                         </div>
                         <div class="services-dtls">
-                            <h5 class="services-heading">7-Day Money-Back Guarantee</h5>
+                            <h5 class="services-heading">5-Day Money-Back Guarantee</h5>
                             <p>Shop with confidence, risk-free.</p>
                         </div>
                     </div>
@@ -182,11 +185,12 @@
                         </div>
                         <div class="services-dtls">
                             <h5 class="services-heading">Fast & Reliable Shipping</h5>
-                            <p>Get your favorite Kenyan products quickly.</p>
+                            <p>Get your home essentials quickly.</p>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -242,11 +246,11 @@
                                 <!-- Price Section -->
                                 <div style="margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
                                     <span style="font-size: 18px; font-weight: 700; color: #2d3436;">
-                                        ${{ number_format($product->price, 2) }}
+                                        KES {{ number_format($product->price, 2) }}
                                     </span>
                                     @if ($product->slashed_price)
                                         <span style="font-size: 14px; color: #e74c3c; text-decoration: line-through;">
-                                            ${{ number_format($product->slashed_price, 2) }}
+                                            KES {{ number_format($product->slashed_price, 2) }}
                                         </span>
                                     @endif
                                 </div>
@@ -291,8 +295,9 @@
                         <div class="row">
                             <div class="col-lg-7 col-md-7">
                                 <h6 class="advertise-sub-heading">Special Offer</h6>
-                                <h2 class="advertise-heading">Authentic Kenyan Flavors</h2>
-                                <p>Get a taste of home with our handpicked selection of Kenyan food products.</p>
+                                <h2 class="advertise-heading">Cozy & Stylish Home Essentials</h2>
+                                <p>Discover premium fleece blankets, duvet covers, and cushion covers for ultimate
+                                    comfort.</p>
                                 <a href="/shop" title="" class="btn btn-primary">Shop Now<i
                                         class="flaticon-right-arrows"></i></a>
                             </div>
@@ -300,7 +305,7 @@
                                 <div class="advertise-img text-lg-end text-center">
                                     <a href="#" title=""><img
                                             src="assets/images/home_page_4/advertise/01.png" class="img-fluid"
-                                            alt="Kenyan Food Products"></a>
+                                            alt="Home Essentials"></a>
                                 </div>
                             </div>
                         </div>
@@ -312,8 +317,9 @@
                         <div class="row">
                             <div class="col-lg-7 col-md-7">
                                 <h6 class="advertise-sub-heading">Limited Time Deal</h6>
-                                <h2 class="advertise-heading">Handcrafted Kenyan Treasures</h2>
-                                <p>Bring a touch of Kenyan culture into your home with unique handmade items.</p>
+                                <h2 class="advertise-heading">Luxury & Protection for Your Furniture</h2>
+                                <p>Enhance your home with stylish slipcovers, recliner chair covers, and anti-slip door
+                                    mats.</p>
                                 <a href="/shop" title="" class="btn btn-primary">Shop Now<i
                                         class="flaticon-right-arrows"></i></a>
                             </div>
@@ -321,7 +327,7 @@
                                 <div class="advertise-img text-lg-end text-center">
                                     <a href="#" title=""><img
                                             src="assets/images/home_page_4/advertise/02.png" class="img-fluid"
-                                            alt="Kenyan Handicrafts"></a>
+                                            alt="Furniture Covers"></a>
                                 </div>
                             </div>
                         </div>
@@ -331,6 +337,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- advertise end -->
     <div class="container" style="padding: 20px; max-width: 1350px; margin: 0 auto;">
@@ -430,14 +437,14 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="home-banner-dtl">
                             <h4 class="home-banner-sub-heading">Exclusive Deal <span class="home-badge">-20%
-                                    Off</span>
-                            </h4>
-                            <h1 class="home-banner-heading">Bringing Kenya Closer</h1>
-                            <p>Enjoy special discounts on your favorite Kenyan products. Stay connected to home with
-                                every purchase!</p>
-                            <a title="/shop" class="btn btn-primary">Shop Now<i
+                                    Off</span></h4>
+                            <h1 class="home-banner-heading">Cozy Comfort for Your Home</h1>
+                            <p>Enjoy special discounts on fleece blankets, duvet covers, slipcovers, and more. Transform
+                                your space with comfort and style!</p>
+                            <a href="/shop" title="" class="btn btn-primary">Shop Now<i
                                     class="flaticon-right-arrows"></i></a>
                         </div>
+
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="advertise-one-img-block">
@@ -454,6 +461,7 @@
     <!-- advertise one end -->
 
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

@@ -25,7 +25,7 @@ class ContactController extends Controller
         $contact = Contact::create($request->all());
 
         // Send email to website owner
-        Mail::to('wafulabrian86@gmail.com')->send(new ContactMail($contact));
+        Mail::to('cmoraa19@gmail.com')->send(new ContactMail($contact));
 
         // Return JSON response
         return response()->json([

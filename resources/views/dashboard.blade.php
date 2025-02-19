@@ -33,7 +33,7 @@
                     <div
                         style="display: flex; justify-content: space-between; padding: 0.75rem; background: #f8fafc; border-radius: 12px;">
                         <span style="color: #64748b;">Total Price</span>
-                        <span style="font-weight: 700; color: #1a1a1a;">${{ number_format($total, 2) }}</span>
+                        <span style="font-weight: 700; color: #1a1a1a;">KES {{ number_format($total, 2) }}</span>
                     </div>
                 </div>
             </div>
@@ -59,8 +59,8 @@
                                         <p style="color: #64748b; font-size: 0.925rem;">Qty: {{ $item['quantity'] }}</p>
                                     </div>
                                 </div>
-                                <span
-                                    style="font-weight: 700; color: #1a1a1a;">${{ number_format($item['price'], 2) }}</span>
+                                <span style="font-weight: 700; color: #1a1a1a;">KES
+                                    {{ number_format($item['price'], 2) }}</span>
                             </div>
                         @endforeach
                     </div>
@@ -174,7 +174,8 @@
                                 <div>
                                     <p style="font-weight: 600; color: #1a1a1a; margin-bottom: 0.25rem;">
                                         {{ $item['name'] }}</p>
-                                    <p style="color: #64748b; font-size: 0.925rem;">${{ number_format($item['price'], 2) }}
+                                    <p style="color: #64748b; font-size: 0.925rem;">KES
+                                        {{ number_format($item['price'], 2) }}
                                     </p>
                                 </div>
                             </div>

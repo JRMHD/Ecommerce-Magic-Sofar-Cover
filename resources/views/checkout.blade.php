@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Secure Checkout | Ukwaju Market | Kenyan Groceries USA</title>
+    <title>Secure Checkout | Magic Sofa Cover Kenya</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -94,7 +94,7 @@
                                 <div style="display: flex; flex-wrap: wrap; gap: 12px; color: #64748b;">
                                     <div>
                                         <span style="font-size: 0.875rem;">Price:</span>
-                                        <span style="color: #2d3748;">${{ number_format($item['price'], 2) }}</span>
+                                        <span style="color: #2d3748;">KES {{ number_format($item['price'], 2) }}</span>
                                     </div>
                                     <div>
                                         <span style="font-size: 0.875rem;">Qty:</span>
@@ -107,7 +107,8 @@
                             </div>
                             <div style="text-align: right;">
                                 <div style="font-size: 0.875rem; color: #64748b;">Subtotal</div>
-                                <div style="font-weight: 600; color: #2d3748;">${{ number_format($subtotal, 2) }}</div>
+                                <div style="font-weight: 600; color: #2d3748;">KES {{ number_format($subtotal, 2) }}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -119,7 +120,7 @@
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div style="font-weight: 600; color: #2d3748; font-size: 1.125rem;">Total Amount:</div>
                         <div style="font-weight: 700; color: #2d3748; font-size: 1.25rem;">
-                            ${{ number_format($total, 2) }}
+                            KES {{ number_format($total, 2) }}
                         </div>
                     </div>
                 </div>
@@ -315,6 +316,7 @@
     </script>
 
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

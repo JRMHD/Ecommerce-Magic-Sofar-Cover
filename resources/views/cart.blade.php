@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Your Shopping Cart | Ukwaju Market | African & Kenyan Products</title>
+    <title>Your Shopping Cart | Magic Sofa Cover Kenya</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -98,7 +98,7 @@
                                 </td>
                                 <td
                                     style="padding: 1rem; border-bottom: 1px solid #e2e8f0; color: #2d3748; font-weight: 600;">
-                                    ${{ number_format($item['price'], 2) }}
+                                    KES {{ number_format($item['price'], 2) }}
                                 </td>
                                 <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">
                                     <div style="display: inline-flex; align-items: center; gap: 0.5rem;">
@@ -118,7 +118,7 @@
                                 </td>
                                 <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0; color: #2d3748; font-weight: 600;"
                                     class="cart-total">
-                                    ${{ number_format($item['price'] * $item['quantity'], 2) }}
+                                    KES {{ number_format($item['price'] * $item['quantity'], 2) }}
                                 </td>
                                 <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">
                                     <button onclick="removeFromCart({{ $id }})"
@@ -136,7 +136,7 @@
             <div
                 style="margin-top: 2rem; display: flex; justify-content: space-between; align-items: center; background-color: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);">
                 <div style="color: #2d3748; font-size: 1.25rem; font-weight: 600;">
-                    Total: $<span id="cart-total">{{ number_format($total, 2) }}</span>
+                    Total: KES <span id="cart-total">{{ number_format($total, 2) }}</span>
                 </div>
                 <a href="{{ route('checkout') }}"
                     style="background-color: #48bb78; color: white; padding: 0.75rem 1.5rem; border-radius: 0.375rem; text-decoration: none; display: inline-flex; align-items: center; transition: background-color 0.2s;">
@@ -227,6 +227,7 @@
     </script>
     <!-- cart end -->
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

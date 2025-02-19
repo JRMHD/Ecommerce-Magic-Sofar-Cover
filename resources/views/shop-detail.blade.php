@@ -5,24 +5,55 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ $product->name }} | Authentic Kenyan Products | Ukwaju Market USA</title>
+    <title>{{ $product->name }} | Shop Fleece Blankets, Duvets & Home Essentials Online in Kenya | Magic Sofa Cover
+    </title>
+
+
+    <!-- Primary Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Media City">
+    <meta name="description"
+        content="Discover high-quality fleece blankets, fluffy duvets, pillow protectors, carpets, and more. Shop top home essentials online in Kenya with nationwide delivery.">
+    <meta name="keywords"
+        content="buy fleece blankets online Kenya, duvet covers Kenya, fluffy duvets, pillow protectors, carpets, home essentials shopping Kenya, sofa covers, velvet duvet, anti-slip mats, throw pillow covers">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://magicsofacover.shop/shop">
+    <meta property="og:title" content="Shop Fleece Blankets, Duvets & Home Essentials Online in Kenya">
+    <meta property="og:description"
+        content="Get premium fleece blankets, duvets, pillow covers, and home essentials. Shop online with fast nationwide delivery in Kenya.">
+    <meta property="og:image" content="assets/images/magicsofacover-shop-og.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://magicsofacover.shop/shop">
+    <meta property="twitter:title" content="Shop Fleece Blankets, Duvets & Home Essentials in Kenya">
+    <meta property="twitter:description"
+        content="Find high-quality fleece blankets, duvets, carpets, and more. Shop with confidence and enjoy fast Kenya-wide delivery.">
+    <meta property="twitter:image" content="assets/images/magicsofacover-shop-og.jpg">
+
+    <!-- Additional Meta -->
+    <meta name="author" content="Magic Sofa Cover">
     <meta name="MobileOptimized" content="320">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="canonical" href="https://magicsofacover.shop/shop">
+
+    <!-- E-commerce Specific Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta property="og:availability" content="instock">
+    <meta property="og:price:currency" content="KES">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"
-        rel="stylesheet"> <!-- google fonts -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/flaticon/flaticon_ecommerce.css') }}">
-    <!-- flaticons css -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/slick/css/slick.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/slick/css/slick-theme.css') }}">
-    <!-- slick theme css -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/drift/css/drift-basic.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon/flaticon_ecommerce.css">
+    <link rel="stylesheet" type="text/css" href="vendor/slick/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="vendor/slick/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -110,11 +141,11 @@
                     <!-- Price Section -->
                     <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px;">
                         <span style="font-size: 32px; font-weight: 700; color: #2d3436;">
-                            ${{ number_format($product->price, 2) }}
+                            KES {{ number_format($product->price, 2) }}
                         </span>
                         @if ($product->slashed_price)
                             <span style="font-size: 20px; color: #e74c3c; text-decoration: line-through;">
-                                ${{ number_format($product->slashed_price, 2) }}
+                                KES {{ number_format($product->slashed_price, 2) }}
                             </span>
                         @endif
                     </div>
@@ -337,12 +368,12 @@
                                     <!-- Price Section -->
                                     <div style="margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
                                         <span style="font-size: 18px; font-weight: 700; color: #2d3436;">
-                                            ${{ number_format($related->price, 2) }}
+                                            KES {{ number_format($related->price, 2) }}
                                         </span>
                                         @if ($related->slashed_price)
                                             <span
                                                 style="font-size: 14px; color: #e74c3c; text-decoration: line-through;">
-                                                ${{ number_format($related->slashed_price, 2) }}
+                                                KES {{ number_format($related->slashed_price, 2) }}
                                             </span>
                                         @endif
                                     </div>
@@ -423,6 +454,7 @@
 
     <!-- end comment -->
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

@@ -11,9 +11,10 @@
                              </a>
                          </div>
                          <div class="footer-dtls">
-                             <p>Ukwaju Market – Bringing Kenya closer to you. Authentic products, trusted service, and a
-                                 taste of home in every order.</p>
+                             <p>Magic Sofa Cover – Elevate Your Home with Comfort & Style. Premium-quality home
+                                 essentials, reliable service, and affordable elegance in every order.</p>
                          </div>
+
                          <ul class="footer-social-icons">
                              <li><a href="#" title=""><i class="flaticon-facebook"></i></a></li>
                              <li><a href="#" title=""><i class="flaticon-twitter"></i></a></li>
@@ -56,12 +57,13 @@
                              <div class="footer-widget">
                                  <h3 class="footer-widget-heading">Contact</h3>
                                  <ul class="footer-menu">
-                                     <li><a href="tel:+12129353811" title="">+ (212) 935 3811</a></li>
-                                     <li><a href="https://html.mediacity.co.in/cdn-cgi/l/email-protection#ec9b8580808589c28689828285828b9fac89948d819c8089c28f8381"
-                                             title=""><span class="__cf_email__"
-                                                 data-cfemail="f4839d98989d91da9e919a9a9d9a9387b4918c9599849891da979b99">info@Ukwajumarket.com</span></a>
+                                     <li><a href="tel:+254 707 518787" title="">+254 707 518787</a></li>
+                                     <li><a href="" title=""><span class="__cf_email__"
+                                                 data-cfemail="">cmoraa19@gmail.com</span></a>
                                      </li>
-                                     <li>New York, USA</li>
+                                     <li>Royal Palm Mall AM15 first floor , Wing A
+                                         Along Ronald Ngala street Nairobi,Kenya
+                                     </li>
                                  </ul>
                              </div>
                          </div>

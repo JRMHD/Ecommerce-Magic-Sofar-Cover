@@ -4,35 +4,35 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FAQs | Common Questions About Kenyan Products | Ukwaju Market USA</title>
+    <title>FAQs | Common Questions About Fleece Blankets & Home Essentials | Magic Sofa Cover Kenya</title>
 
     <!-- Primary Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Find answers to common questions about ordering Kenyan products, shipping, returns, and more. Everything you need to know about shopping authentic African foods and goods at Ukwaju Market.">
+        content="Find answers to common questions about ordering fleece blankets, home essentials, shipping, returns, and more. Everything you need to know about shopping at Magic Sofa Cover Kenya.">
     <meta name="keywords"
-        content="Ukwaju Market FAQ, Kenyan products questions, African grocery FAQ, shipping African food USA, returns policy Kenya products, African store help">
+        content="Magic Sofa Cover FAQ, fleece blankets questions, home essentials FAQ, shipping Kenya, returns policy, home decor help">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.ukwajumarket.com/faqs">
-    <meta property="og:title" content="Frequently Asked Questions | Ukwaju Market">
+    <meta property="og:url" content="https://www.magicsofacover.shop/faqs">
+    <meta property="og:title" content="Frequently Asked Questions | Magic Sofa Cover Kenya">
     <meta property="og:description"
-        content="Get answers about ordering Kenyan products, shipping times, returns, and more. Your guide to shopping authentic African products in the USA.">
-    <meta property="og:image" content="assets/images/ukwaju-market-faq-og.jpg">
+        content="Get answers about ordering fleece blankets, sofa covers, and other home essentials. Your guide to shopping at Magic Sofa Cover Kenya.">
+    <meta property="og:image" content="assets/images/magicsofacover-faq-og.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.ukwajumarket.com/faqs">
-    <meta property="twitter:title" content="FAQ | Ukwaju Market Help Center">
+    <meta property="twitter:url" content="https://www.magicsofacover.shop/faqs">
+    <meta property="twitter:title" content="FAQ | Magic Sofa Cover Help Center">
     <meta property="twitter:description"
-        content="Common questions about ordering Kenyan products, shipping, and returns. Your complete guide to shopping at Ukwaju Market.">
-    <meta property="twitter:image" content="assets/images/ukwaju-market-faq-og.jpg">
+        content="Common questions about ordering fleece blankets, home decor, shipping, and returns. Your complete guide to shopping at Magic Sofa Cover Kenya.">
+    <meta property="twitter:image" content="assets/images/magicsofacover-faq-og.jpg">
 
     <!-- Additional Meta -->
-    <meta name="author" content="Ukwaju Market">
+    <meta name="author" content="Magic Sofa Cover Kenya">
     <meta name="MobileOptimized" content="320">
-    <link rel="canonical" href="https://www.ukwajumarket.com/faqs">
+    <link rel="canonical" href="https://www.magicsofacover.shop/faqs">
 
     <!-- FAQ-Specific Meta -->
     <meta name="robots" content="index, follow">
@@ -78,16 +78,15 @@
                                 <h4 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        How long does shipping take for Kenyan products to reach me in the USA?
+                                        How long does shipping take within Kenya?
                                     </button>
                                 </h4>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We typically deliver within 5-7 business days for standard shipping across the
-                                        continental USA.Express shipping options can be available if requested.
-                                        All orders are carefully packaged to ensure your Kenyan products arrive fresh
-                                        and in perfect condition. We currently ship to all 50 states.
+                                        We typically deliver within 2-5 business days for orders within Kenya. Nairobi
+                                        deliveries are faster and can be completed within 24-48 hours. We ensure safe
+                                        and secure packaging for all orders.
                                     </div>
                                 </div>
                             </div>
@@ -95,16 +94,14 @@
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        What payment methods do you accept at Ukwaju Market?
+                                        What payment methods do you accept at Magic Sofa Cover Shop?
                                     </button>
                                 </h4>
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We accept all major credit cards (Visa, MasterCard, American Express, Discover),
-                                        PayPal, and digital wallets including Apple Pay and Google Pay. All transactions
-                                        are processed securely through our encrypted payment system to ensure your
-                                        financial information is protected.
+                                        We accept M-Pesa, major credit and debit cards (Visa, MasterCard), and bank
+                                        transfers. All payments are processed securely to protect your information.
                                     </div>
                                 </div>
                             </div>
@@ -119,17 +116,14 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="false" aria-controls="collapseThree">
-                                        How do you ensure the authenticity of your Kenyan products?
+                                        What is your return and refund policy?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample2">
                                     <div class="accordion-body">
-                                        We source our products directly from trusted suppliers and manufacturers in
-                                        Kenya. All our food items are properly certified and comply with FDA
-                                        regulations. We maintain strong relationships with Kenyan producers to ensure
-                                        you receive genuine, high-quality products that truly represent Kenya's rich
-                                        culture and traditions.
+                                        We offer a 5-day return policy for items in their original, unused condition. If
+                                        there is an issue with your order, please contact us immediately for assistance.
                                     </div>
                                 </div>
                             </div>
@@ -138,16 +132,14 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                         aria-expanded="false" aria-controls="collapseFour">
-                                        What is your return and refund policy?
+                                        Do you offer wholesale or bulk ordering?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample2">
                                     <div class="accordion-body">
-                                        We offer a 14-day return policy for non-perishable items in their original,
-                                        unopened condition. For perishable food items, please contact us within 24 hours
-                                        of delivery if you notice any issues. Customer satisfaction is our priority, and
-                                        we'll work with you to resolve any concerns about your order.
+                                        Yes, we offer special pricing for bulk orders. Contact us for more details on
+                                        wholesale and custom orders.
                                     </div>
                                 </div>
                             </div>
@@ -156,34 +148,14 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                         aria-expanded="false" aria-controls="collapseFive">
-                                        Do you offer wholesale or bulk ordering options?
+                                        How do I track my order?
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample2">
                                     <div class="accordion-body">
-                                        Yes, we offer wholesale options for businesses and bulk orders for events or
-                                        large families. Contact our wholesale department for special pricing and minimum
-                                        order requirements. We can accommodate custom orders and provide dedicated
-                                        support for our business customers.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                                        aria-controls="collapseSix">
-                                        How do I track my order from Ukwaju Market?
-                                    </button>
-                                </h2>
-                                <div id="collapseSix" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body">
-                                        Once your order ships, you'll receive a tracking number via email. You can track
-                                        your package through our website by logging into your account or using the
-                                        tracking number provided. We also send automated updates about significant
-                                        shipping milestones to keep you informed about your delivery.
+                                        For real-time updates, you can track your order directly through your dashboard.
+                                        Alternatively, feel free to contact us for assistance.
                                     </div>
                                 </div>
                             </div>
@@ -193,6 +165,7 @@
             </div>
         </div>
     </section>
+
     <!-- faqs end -->
     <!-- faqs form start -->
     <section id="faqs-form" class="faqs-form-main-block">
@@ -200,10 +173,10 @@
             <div class="row">
                 <div class="col-xl-12 text-center">
                     <div class="faqs-form-dtls">
-                        <h1 class="heading">Stay Connected to Home</h1>
-                        <p>At Ukwaju Market, we believe in making your dreams of staying connected to home a reality.
-                            Whether it’s the food, the culture, or the little things that remind you of Kenya, we bring
-                            them closer to you in the USA.</p>
+                        <h1 class="heading">Stay Connected with Us</h1>
+                        <p>At Magic Sofa Cover Shop, we are dedicated to bringing comfort and style to your home.
+                            Whether you need high-quality fleece blankets, duvet covers, or slipcovers, we ensure you
+                            get the best products delivered across Kenya.</p>
                         <a href="/contact" class="btn btn-primary faqs-buttons">Contact Us</a>
                     </div>
                 </div>
@@ -213,6 +186,7 @@
 
     <!-- faqs form end -->
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

@@ -14,7 +14,7 @@
                    <ul class="top-bar-info-block">
                        <li class="top-bar-contact">
                            <a href="#" class="contact" title="">
-                               <i class="flaticon-phone"></i>You can contact us 24/7<span> + (212) 935 3811</span>
+                               <i class="flaticon-phone"></i>You can contact us 24/7<span> +254 707 518787</span>
                            </a>
                        </li>
                        <li class="dropdown top-bar-dropdown">
@@ -24,16 +24,17 @@
                            </button>
                            <ul class="dropdown-menu">
                                <li><a class="dropdown-item" href="#">English</a></li>
+                               <li><a class="dropdown-item" href="#">Swahili</a></li>
 
                            </ul>
                        </li>
                        <li class="dropdown top-bar-dropdown">
                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                aria-expanded="false">
-                               USD <i class="flaticon-down-arrow"></i>
+                               KES <i class="flaticon-down-arrow"></i>
                            </button>
                            <ul class="dropdown-menu">
-                               <li><a class="dropdown-item" href="#">USD</a></li>
+                               <li><a class="dropdown-item" href="#">KES</a></li>
 
                            </ul>
                        </li>
@@ -148,7 +149,8 @@
                                        <div class="cart-dtl">
                                            <span>Total</span>
                                            <h6 class="cart-price">
-                                               ${{ number_format(session('cart') ? array_sum(array_map(fn($item) => $item['price'] * $item['quantity'], session('cart'))) : 0, 2) }}
+                                               KES
+                                               {{ number_format(session('cart') ? array_sum(array_map(fn($item) => $item['price'] * $item['quantity'], session('cart'))) : 0, 2) }}
                                            </h6>
                                        </div>
                                    </div>

@@ -7,40 +7,40 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Shop Kenyan Products Online | African Groceries & Foods | Ukwaju Market USA</title>
+    <title>Shop Fleece Blankets, Duvets & Home Essentials Online in Kenya | Magic Sofa Cover</title>
 
     <!-- Primary Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Buy authentic Kenyan groceries, spices, snacks, and cultural items online. Browse our wide selection of East African products with nationwide USA delivery. Fresh African foods and ingredients.">
+        content="Discover high-quality fleece blankets, fluffy duvets, pillow protectors, carpets, and more. Shop top home essentials online in Kenya with nationwide delivery.">
     <meta name="keywords"
-        content="buy Kenyan food online, African grocery store USA, Kenyan spices, East African snacks, African cooking ingredients, Kenyan tea USA, African food store online">
+        content="buy fleece blankets online Kenya, duvet covers Kenya, fluffy duvets, pillow protectors, carpets, home essentials shopping Kenya, sofa covers, velvet duvet, anti-slip mats, throw pillow covers">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.ukwajumarket.com/shop">
-    <meta property="og:title" content="Shop Authentic Kenyan Products | Ukwaju Market USA">
+    <meta property="og:url" content="https://magicsofacover.shop/shop">
+    <meta property="og:title" content="Shop Fleece Blankets, Duvets & Home Essentials Online in Kenya">
     <meta property="og:description"
-        content="Browse and buy authentic Kenyan groceries, spices, snacks, and cultural items. Quality East African products delivered across USA.">
-    <meta property="og:image" content="assets/images/ukwaju-market-shop-og.jpg">
+        content="Get premium fleece blankets, duvets, pillow covers, and home essentials. Shop online with fast nationwide delivery in Kenya.">
+    <meta property="og:image" content="assets/images/magicsofacover-shop-og.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.ukwajumarket.com/shop">
-    <meta property="twitter:title" content="Shop Kenyan Products | Ukwaju Market USA">
+    <meta property="twitter:url" content="https://magicsofacover.shop/shop">
+    <meta property="twitter:title" content="Shop Fleece Blankets, Duvets & Home Essentials in Kenya">
     <meta property="twitter:description"
-        content="Browse authentic Kenyan groceries, spices, snacks & cultural items. Quality East African products delivered USA-wide.">
-    <meta property="twitter:image" content="assets/images/ukwaju-market-shop-og.jpg">
+        content="Find high-quality fleece blankets, duvets, carpets, and more. Shop with confidence and enjoy fast Kenya-wide delivery.">
+    <meta property="twitter:image" content="assets/images/magicsofacover-shop-og.jpg">
 
     <!-- Additional Meta -->
-    <meta name="author" content="Ukwaju Market">
+    <meta name="author" content="Magic Sofa Cover">
     <meta name="MobileOptimized" content="320">
-    <link rel="canonical" href="https://www.ukwajumarket.com/shop">
+    <link rel="canonical" href="https://magicsofacover.shop/shop">
 
     <!-- E-commerce Specific Meta Tags -->
     <meta name="robots" content="index, follow">
     <meta property="og:availability" content="instock">
-    <meta property="og:price:currency" content="USD">
+    <meta property="og:price:currency" content="KES">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -55,6 +55,7 @@
     <link rel="stylesheet" type="text/css" href="vendor/slick/css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 
 <body>
     @include('header')
@@ -78,10 +79,13 @@
                     <div class="col-xl-4 col-lg-6">
                         <div class="advertise-block">
                             <h6 class="advertise-sub-heading">Weekend Special</h6>
-                            <h2 class="advertise-heading">Authentic Kenyan Delicacies</h2>
-                            <p>Bringing you the taste of home, fresh and authentic.</p>
-                            <a title="" class="btn btn-primary">Shop Now<i class="flaticon-right-arrows"></i></a>
+                            <h2 class="advertise-heading">Cozy Comfort for Less</h2>
+                            <p>Upgrade your home with our premium fleece blankets, duvet covers, and stylish slipcovers
+                                at unbeatable prices.</p>
+                            <a href="/shop" title="" class="btn btn-primary">Shop Now<i
+                                    class="flaticon-right-arrows"></i></a>
                         </div>
+
                     </div>
                     <div class="col-xl-8 col-lg-6">
                         <ul class="discount-img">
@@ -313,6 +317,7 @@
     </script>
 
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

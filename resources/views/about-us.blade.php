@@ -4,40 +4,40 @@
 
 <head>
     <meta charset="utf-8">
-    <title>About Ukwaju Market | Authentic Kenyan Products & Culture in USA | Our Story</title>
+    <title>About Magic Sofa Cover | Quality Home Essentials in Kenya | Our Story</title>
 
     <!-- Primary Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Discover how Ukwaju Market brings authentic Kenyan products to the USA. Our mission is creating a home away from home for Kenyans in America through traditional foods and cultural items.">
+        content="Learn about Magic Sofa Cover, your go-to store for fleece blankets, duvets, sofa covers, carpets, and more in Kenya. We provide quality home essentials with nationwide delivery.">
     <meta name="keywords"
-        content="Ukwaju Market story, Kenyan store USA, African marketplace America, Kenyan business USA, East African store history, authentic African products, Kenyan culture USA">
+        content="Magic Sofa Cover story, fleece blankets Kenya, home essentials Kenya, duvet covers, sofa covers, anti-slip mats, quality home decor">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.ukwajumarket.com/about-us">
-    <meta property="og:title" content="About Ukwaju Market | Bringing Kenya Closer to You">
+    <meta property="og:url" content="https://magicsofacover.shop/about-us">
+    <meta property="og:title" content="About Magic Sofa Cover | Quality Home Essentials in Kenya">
     <meta property="og:description"
-        content="Learn about our mission to bring authentic Kenyan products to the USA. Creating a home away from home for Kenyans in America through traditional foods and cultural items.">
-    <meta property="og:image" content="assets/images/ukwaju-market-about-og.jpg">
+        content="Discover our commitment to providing top-quality home essentials in Kenya. Shop fleece blankets, duvets, sofa covers, and more with fast nationwide delivery.">
+    <meta property="og:image" content="assets/images/magicsofacover-about-og.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.ukwajumarket.com/about-us">
-    <meta property="twitter:title" content="About Ukwaju Market | Our Kenyan-American Story">
+    <meta property="twitter:url" content="https://magicsofacover.shop/about-us">
+    <meta property="twitter:title" content="About Magic Sofa Cover | Our Story">
     <meta property="twitter:description"
-        content="Discover how we're bringing authentic Kenyan products to the USA. Creating a cultural bridge through traditional foods and items.">
-    <meta property="twitter:image" content="assets/images/ukwaju-market-about-og.jpg">
+        content="Learn about our passion for providing high-quality home essentials, including fleece blankets, sofa covers, and duvets in Kenya.">
+    <meta property="twitter:image" content="assets/images/magicsofacover-about-og.jpg">
 
     <!-- Additional Meta -->
-    <meta name="author" content="Ukwaju Market">
+    <meta name="author" content="Magic Sofa Cover">
     <meta name="MobileOptimized" content="320">
-    <link rel="canonical" href="https://www.ukwajumarket.com/about-us">
+    <link rel="canonical" href="https://magicsofacover.shop/about-us">
 
     <!-- Company-Specific Meta -->
-    <meta name="geo.region" content="US">
-    <meta name="geo.position" content="39.8283;-98.5795">
-    <meta name="ICBM" content="39.8283, -98.5795">
+    <meta name="geo.region" content="KE">
+    <meta name="geo.position" content="-1.286389;36.817223">
+    <meta name="ICBM" content="-1.286389, 36.817223">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -52,6 +52,7 @@
     <link rel="stylesheet" type="text/css" href="vendor/slick/css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 
 <body>
     @include('header')
@@ -78,30 +79,33 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-us-block">
-                        <h6 class="about-sub-heading hr-lines">Ukwaju Market</h6>
-                        <h1 class="about-main-heading">Bringing Kenya Closer to You</h1>
+                        <h6 class="about-sub-heading hr-lines">Magic Sofa Cover</h6>
+                        <h1 class="about-main-heading">Transform Your Home with Comfort & Style</h1>
 
-                        <p>They say, east or west, home is best. At Ukwaju Market, we are dedicated to creating a home
-                            away from home for Kenyans in the USA. We understand the longing for familiar tastes,
-                            scents, and cultural items that make home special.</p>
-                        <p>Founded in 2023, Ukwaju Market was born out of a growing demand from the East African
-                            diaspora—especially Kenyans—seeking authentic products and delicacies from home. We take
-                            pride in bridging this gap, ensuring that no matter where you are, the flavors and
-                            traditions of Kenya are always within reach.</p>
+                        <p>Your home should be a place of warmth, comfort, and elegance. At Magic Sofa Cover, we
+                            specialize in high-quality home essentials that elevate your living space. From cozy fleece
+                            blankets to stylish slipcovers, we bring you the best in home comfort and décor.</p>
+
+                        <p>Founded with a passion for quality and affordability, our store is dedicated to offering a
+                            wide range of products, including duvet covers, pillow protectors, velvet duvets, 3D
+                            carpets, and much more. Whether you're looking to refresh your living space or protect your
+                            furniture, we have something for you.</p>
+
                         <div class="row">
                             <div class="col-lg-6">
-                                <h3 class="about-title">Your Favorite Kenyan Products</h3>
-                                <p class="mb-0">From foodstuffs to handcrafted items, we bring you the essentials you
-                                    miss the most, right to your doorstep.</p>
+                                <h3 class="about-title">Quality You Can Trust</h3>
+                                <p class="mb-0">Our products are crafted from premium materials, ensuring durability,
+                                    comfort, and a touch of luxury in every purchase.</p>
                             </div>
                             <div class="col-lg-6">
-                                <h3 class="about-title">A Touch of Home</h3>
-                                <p class="mb-0">What reminds you of home? We curate and deliver those special products
-                                    that bring a piece of Kenya into your daily life.</p>
+                                <h3 class="about-title">Designed for Every Home</h3>
+                                <p class="mb-0">From classic to modern interiors, our wide range of covers and
+                                    textiles help you personalize and protect your home effortlessly.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -113,22 +117,22 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-us-block">
-                        <h6 class="about-sub-heading hr-lines">Why Choose Ukwaju</h6>
-                        <h1 class="about-main-heading">A Taste of Home, Wherever You Are</h1>
+                        <h6 class="about-sub-heading hr-lines">Why Choose Magic Sofa Cover</h6>
+                        <h1 class="about-main-heading">Comfort & Style for Every Home</h1>
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                                 <h3 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true"
                                         aria-controls="collapseOne">
-                                        <span>01</span>Authentic Kenyan Products
+                                        <span>01</span>Premium Quality Products
                                     </button>
                                 </h3>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We bring you the most authentic Kenyan products, from foodstuffs to cultural
-                                        artifacts, ensuring you always feel connected to home.
+                                        We offer high-quality fleece blankets, duvets, slipcovers, and more, designed to
+                                        add elegance and comfort to your home.
                                     </div>
                                 </div>
                             </div>
@@ -137,14 +141,14 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                        <span>02</span>Convenient & Reliable Delivery
+                                        <span>02</span>Reliable & Fast Delivery
                                     </button>
                                 </h3>
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We make sure your favorite Kenyan products reach you on time, no matter where
-                                        you are in the USA.
+                                        Enjoy hassle-free shopping with our swift and reliable delivery services,
+                                        ensuring your orders arrive on time.
                                     </div>
                                 </div>
                             </div>
@@ -153,14 +157,14 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="false" aria-controls="collapseThree">
-                                        <span>03</span>Supporting Kenyan Businesses
+                                        <span>03</span>Affordable & Stylish Home Essentials
                                     </button>
                                 </h3>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        By shopping with us, you not only get a taste of home but also support local
-                                        Kenyan businesses and artisans.
+                                        We believe that style and comfort should be accessible to everyone. Our
+                                        collection is budget-friendly without compromising on quality.
                                     </div>
                                 </div>
                             </div>
@@ -169,7 +173,8 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-us-img">
-                        <img src="assets/images/home_page_4/about/02.png" class="img-fluid" alt="Why Choose Ukwaju">
+                        <img src="assets/images/home_page_4/about/02.png" class="img-fluid"
+                            alt="Why Choose Magic Sofa Cover">
                     </div>
                 </div>
             </div>
@@ -183,20 +188,20 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-us-img">
-                        <img src="assets/images/home_page_4/about/03.png" class="img-fluid" alt="Ukwaju Dreams">
+                        <img src="assets/images/home_page_4/about/03.png" class="img-fluid" alt="Magic Sofa Cover">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-us-block">
-                        <h6 class="about-sub-heading hr-lines">Ukwaju Market</h6>
-                        <h1 class="about-main-heading">Keeping Traditions Alive, One Product at a Time</h1>
-                        <p>At Ukwaju Market, we believe in making your dreams of staying connected to home a reality.
-                            Whether it’s the food, the culture, or the little things that remind you of Kenya, we bring
-                            them closer to you in the USA.</p>
+                        <h6 class="about-sub-heading hr-lines">Magic Sofa Cover</h6>
+                        <h1 class="about-main-heading">Creating Cozy & Stylish Spaces</h1>
+                        <p>At Magic Sofa Cover, we believe your home should be a place of comfort and style. From soft,
+                            cozy fleece blankets to elegant slipcovers, we provide high-quality home essentials that
+                            transform your living space effortlessly.</p>
                         <ul class="about-list-block">
-                            <li><i class="flaticon-check-mark"></i>Authentic Kenyan products, handpicked for you</li>
-                            <li><i class="flaticon-check-mark"></i>Fast and reliable shipping across the USA</li>
-                            <li><i class="flaticon-check-mark"></i>Supporting Kenyan artisans and businesses</li>
+                            <li><i class="flaticon-check-mark"></i>Premium-quality blankets, duvets, and covers</li>
+                            <li><i class="flaticon-check-mark"></i>Fast and reliable nationwide delivery</li>
+                            <li><i class="flaticon-check-mark"></i>Affordable home décor solutions for every style</li>
                         </ul>
                     </div>
                 </div>
@@ -204,8 +209,10 @@
         </div>
     </section>
 
+
     <!-- dreams end -->
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Page Not Found | Return to Ukwaju Market | Kenyan Products USA</title>
+    <title>404 Error – Page Not Found | Magic Sofa Cover Kenya</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -76,6 +76,7 @@
 
     <!-- error end -->
     <!-- footer start -->
+    @include('whatsapp')
     @include('footer')
     <!-- footer end -->
 

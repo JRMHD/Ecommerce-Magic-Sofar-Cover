@@ -124,7 +124,7 @@
                                 </span>
                             </td>
                             <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0; color: #2d3748; font-weight: 600;">
-                                ${{ number_format($product->price, 2) }}
+                                KES {{ number_format($product->price, 2) }}
                             </td>
                             <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">
                                 <span
