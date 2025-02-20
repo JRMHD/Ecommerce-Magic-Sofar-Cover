@@ -91,7 +91,7 @@
 
             <div class="order-info">
                 <p><strong>Order ID:</strong> #{{ $order->id }}</p>
-                <p><strong>Total Price:</strong> ${{ number_format($order->total_price, 2) }}</p>
+                <p><strong>Total Price:</strong> KES {{ number_format($order->total_price, 2) }}</p>
                 <p>
                     <strong>Status:</strong>
                     <span class="status-badge">{{ ucfirst($order->status) }}</span>
@@ -103,7 +103,7 @@
                 @foreach ($order->items as $item)
                     <li>
                         <strong>{{ $item->product_name }}</strong><br>
-                        ${{ number_format($item->product_price, 2) }} x {{ $item->quantity }}
+                        KES {{ number_format($item->product_price, 2) }} x {{ $item->quantity }}
                     </li>
                 @endforeach
             </ul>

@@ -4,10 +4,22 @@
              <div class="row">
                  <div class="col-lg-4 col-md-4">
                      <div class="footer-block">
-                         <div class="footer-logo">
-                             <a href="/" title="">
-                                 <img src="assets/images/logo/logo.png" class="img-fluid" alt=""
-                                     style="max-width: 40%; height: auto;">
+                         <div
+                             style="text-align: center; font-family: 'Helvetica Neue', Arial, sans-serif; padding: 10px; text-transform: uppercase;">
+                             <a href="/" style="text-decoration: none;">
+                                 <div
+                                     style="font-size: 32px; font-weight: 900; letter-spacing: 2px; color: #000000; margin-bottom: 8px; line-height: 1;">
+                                     MAGIC
+                                 </div>
+                                 <div style="position: relative; display: inline-block; padding: 0 10px;">
+                                     <div
+                                         style="font-size: 14px; font-weight: 600; letter-spacing: 3px; color: #000000; margin-bottom: 10px;">
+                                         SOFAR COVER
+                                     </div>
+                                     <div
+                                         style="width: 60px; height: 2px; background-color: #000000; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);">
+                                     </div>
+                                 </div>
                              </a>
                          </div>
                          <div class="footer-dtls">

@@ -59,6 +59,8 @@
                                 $categories = [
                                     'Fleece Blankets',
                                     'Fluffy Duvets',
+                                    'Duvets',
+                                    'Blankets',
                                     'Velvet Duvets',
                                     'Cotton Duvets',
                                     'Duvet Covers',
@@ -134,7 +136,7 @@
                         <div>
                             <label
                                 style="display: block; font-size: 0.875rem; font-weight: 500; color: #4a5568; margin-bottom: 0.5rem;">
-                                <i class="fas fa-weight" style="margin-right: 0.5rem;"></i> Weight/Quantity
+                                <i class="fas fa-weight" style="margin-right: 0.5rem;"></i>Color/Weight/Quantity
                             </label>
                             <input type="text" name="weight_quantity" value="{{ $product->weight_quantity }}" required
                                 style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 0.375rem; outline: none; transition: border-color 0.2s; font-size: 1rem;">

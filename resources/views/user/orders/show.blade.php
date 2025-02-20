@@ -64,13 +64,13 @@
                         @endphp
                         <div style="display: flex; justify-content: space-between;">
                             <span style="color: #6B7280;">Subtotal</span>
-                            <span style="color: #1F2937; font-weight: 500;">${{ number_format($subtotal, 2) }}</span>
+                            <span style="color: #1F2937; font-weight: 500;">KES {{ number_format($subtotal, 2) }}</span>
                         </div>
                         <div
                             style="display: flex; justify-content: space-between; padding-top: 12px; border-top: 1px solid #E5E7EB;">
                             <span style="color: #1F2937; font-weight: 600;">Total</span>
                             <span style="color: #1F2937; font-weight: 600; font-size: 1.125rem;">
-                                ${{ number_format($subtotal, 2) }}
+                                KES {{ number_format($subtotal, 2) }}
                             </span>
                         </div>
                     </div>
@@ -93,12 +93,12 @@
                                 <div style="font-weight: 500; color: #1F2937; margin-bottom: 4px;">
                                     {{ $item->product_name }}</div>
                                 <div style="font-size: 0.875rem; color: #6B7280;">
-                                    Quantity: {{ $item->quantity }} × ${{ number_format($item->product_price, 2) }}
+                                    Quantity: {{ $item->quantity }} × KES {{ number_format($item->product_price, 2) }}
                                 </div>
                             </div>
 
                             <div style="display: flex; align-items: center; font-weight: 600; color: #1F2937;">
-                                ${{ number_format($item->product_price * $item->quantity, 2) }}
+                                KES {{ number_format($item->product_price * $item->quantity, 2) }}
                             </div>
                         </div>
                     @endforeach

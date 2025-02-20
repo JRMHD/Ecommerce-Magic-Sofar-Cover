@@ -71,7 +71,7 @@
                                     </div>
                                     <div style="text-align: right;">
                                         <div style="font-weight: 600; color: #2d3748;">
-                                            ${{ number_format($order->total_price, 2) }}</div>
+                                            KES {{ number_format($order->total_price, 2) }}</div>
                                         <a href="{{ route('user.orders.show', $order->id) }}"
                                             style="display: inline-block; padding: 8px 16px; background-color: #4f46e5; color: white; text-decoration: none; border-radius: 6px; font-size: 0.875rem; margin-top: 8px;">
                                             View Details
@@ -114,7 +114,7 @@
                                     </div>
                                     <div style="text-align: right;">
                                         <div style="font-weight: 600; color: #2d3748;">
-                                            ${{ number_format($order->total_price, 2) }}</div>
+                                            KES {{ number_format($order->total_price, 2) }}</div>
                                         <a href="{{ route('user.orders.show', $order->id) }}"
                                             style="display: inline-block; padding: 8px 16px; background-color: #4f46e5; color: white; text-decoration: none; border-radius: 6px; font-size: 0.875rem; margin-top: 8px;">
                                             View Details

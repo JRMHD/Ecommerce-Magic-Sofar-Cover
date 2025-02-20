@@ -97,6 +97,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/checkout/paypal', [CartController::class, 'paypalCheckout'])->name('checkout.paypal');
     Route::get('/paypal/success', [CartController::class, 'paypalSuccess'])->name('paypal.success');
     Route::get('/paypal/cancel', [CartController::class, 'paypalCancel'])->name('paypal.cancel');
+
+    Route::post('/checkout/cod', [CartController::class, 'payOnDelivery'])->name('checkout.cod');
 });
 
 

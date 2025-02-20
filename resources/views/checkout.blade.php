@@ -246,6 +246,27 @@
                     </form>
                 </div>
 
+
+                <!-- Pay on Delivery Button -->
+                <form action="{{ route('checkout.cod') }}" method="POST" style="margin-top: 15px;">
+                    @csrf
+                    <button type="submit"
+                        style="background-color: #28a745; 
+                   color: white; 
+                   padding: 12px 30px; 
+                   border: none; 
+                   border-radius: 5px; 
+                   cursor: pointer; 
+                   font-size: 16px;">
+                        Pay on Delivery
+                    </button>
+                </form>
+
+                <p style="margin-top: 10px; font-size: 14px; color: #666;">
+                    Choose this option to pay cash when you receive your order.
+                </p>
+
+
                 <!-- Payment section with PayPal button -->
                 <div style="text-align: center; margin-top: 20px;">
                     <p class="payment-info" style="margin-bottom: 15px;">

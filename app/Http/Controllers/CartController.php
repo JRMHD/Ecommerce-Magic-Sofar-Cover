@@ -12,6 +12,7 @@ use App\Models\OrderItem;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\OrderPlacedMail;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
+use App\Helpers\ExchangeRateHelper;
 
 class CartController extends Controller
 {
@@ -164,7 +165,7 @@ class CartController extends Controller
 
     public function orderSuccess()
     {
-        return view('checkout.success'); // Ensure you have this view file
+        return view('checkout.success');
     }
 
     public function paypalCheckout()
@@ -174,7 +175,12 @@ class CartController extends Controller
             return redirect()->route('cart.index')->with('error', 'Your cart is empty!');
         }
 
-        $totalPrice = array_sum(array_map(fn($item) => $item['price'] * $item['quantity'], $cart));
+        $totalPriceKES = array_sum(array_map(fn($item) => $item['price'] * $item['quantity'], $cart));
+
+        // Get the latest exchange rate dynamically
+        $exchangeRate = ExchangeRateHelper::getKESRate();
+
+        $totalPriceUSD = round($totalPriceKES / $exchangeRate, 2); // Convert KES to USD
 
         $provider = new PayPalClient();
         $provider->setApiCredentials(config('paypal'));
@@ -186,7 +192,7 @@ class CartController extends Controller
                 [
                     "amount" => [
                         "currency_code" => "USD",
-                        "value" => $totalPrice
+                        "value" => $totalPriceUSD
                     ]
                 ]
             ],
@@ -210,5 +216,53 @@ class CartController extends Controller
     public function paypalCancel()
     {
         return redirect()->route('checkout')->with('error', 'You have canceled the PayPal payment.');
+    }
+
+    public function payOnDelivery()
+    {
+        $cart = Session::get('cart', []);
+
+        if (empty($cart)) {
+            return redirect()->route('cart.index')->with('error', 'Your cart is empty!');
+        }
+
+        $user = Auth::user();
+        $shippingAddress = ShippingAddress::where('user_id', $user->id)->first();
+
+        if (!$shippingAddress) {
+            return redirect()->route('checkout')->with('error', 'Please add a shipping address first.');
+        }
+
+        // Calculate total price
+        $totalPrice = array_sum(array_map(fn($item) => $item['price'] * $item['quantity'], $cart));
+
+        // Create order with "Pay on Delivery" method
+        $order = Order::create([
+            'user_id' => $user->id,
+            'total_price' => $totalPrice,
+            'status' => 'pending', // Still pending until delivered
+            'payment_method' => 'Pay on Delivery',
+            'shipping_address' => json_encode($shippingAddress), // Store as JSON
+        ]);
+
+        // Save order items
+        foreach ($cart as $id => $item) {
+            OrderItem::create([
+                'order_id' => $order->id,
+                'product_id' => $id,
+                'product_name' => $item['name'],
+                'product_price' => $item['price'],
+                'quantity' => $item['quantity'],
+                'product_image' => $item['image'],
+            ]);
+        }
+
+        // Send order confirmation email
+        Mail::to($user->email)->send(new OrderPlacedMail($order));
+
+        // Clear cart session
+        Session::forget('cart');
+
+        return redirect()->route('order.success')->with('success', 'Your order has been placed successfully! You will pay upon delivery.');
     }
 }
